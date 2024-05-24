@@ -6,8 +6,9 @@
 }
 
 .hero img {
-    margin-top: 150px ;
+    margin-top: 80px ;
     height: 300px;
+    border-radius: 75px;
 }
 
 .hero h1 {
@@ -63,6 +64,3 @@
 
 }
 
-.profile-picture{
-    border-radius: 75px;
-}
