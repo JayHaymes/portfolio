@@ -15,7 +15,7 @@ const About = () => {
                 <div className="about-right">
                     <div className="about-para">
                         <p>Throughout my training, I have developed a strong foundation in both frontend and backend technologies, and I am eager to apply my skills in a professional setting.</p>
-                        <p>My journey into web development began out of a fascination with how technology can create seamless and dynamic user experiences. Initially self-taught, I quickly realized the value of structured education and enrolled in the Fullstack Academy boot camp to formalize my knowledge and gain hands-on experience.</p>
+                        <p>I began my journey into web development because I was fascinated by how technology can create smooth and interactive user experiences. I started learning on my own but soon realized the need for formal training. To build on my skills and get practical experience, I enrolled in the Fullstack Academy boot camp.</p>
                     </div>
                     <div className="about-skills">
                         <div className="about-skill"><p>HTML & CSS</p><hr style={{ width: "50%" }} /></div>
