@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import profile_img from '../../assets/about_profile.svg'
+// import profile_img from '../../assets/about_profile.svg'
 
 const About = () => {
     return (
@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div className="about-sections">
                 <div className="about-left">
-                    <img className='about-profile-picture' src={profile_img} alt="" />
+                    {/* <img className='about-profile-picture' src={profile_img} alt="" /> */}
                 </div>
                 <div className="about-right">
                     <div className="about-para">
