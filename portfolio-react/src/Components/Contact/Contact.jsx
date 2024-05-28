@@ -4,11 +4,12 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import linkedin_icon from '../../assets/linkedin_icon.svg'
 
 
 const Contact = () => {
     return (
-        <div className='contact'>
+        <div id='contact' className='contact'>
             <div className="contact-title">
                 <h1>Get in touch</h1>
                 <img src={theme_pattern} alt="" />
@@ -26,6 +27,9 @@ const Contact = () => {
                         </div>
                         <div className="contact-detail">
                             <img src={location_icon} alt="" /><p>Chicago, Illinois</p>
+                        </div>
+                        <div className="contact-detail">
+                            <img src={linkedin_icon} alt="" /><p>https://www.linkedin.com/in/jeffrey-haymes/</p>
                         </div>
                     </div>
                 </div>
