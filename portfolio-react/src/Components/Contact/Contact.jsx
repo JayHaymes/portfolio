@@ -25,12 +25,14 @@ const Contact = () => {
     
         if (data.success) {
           setResult('Form Submitted Successfully');
+          alert('Form Submitted Successfully');
           event.target.reset();
         } else {
           console.log('Error', data);
           setResult(data.message);
+          alert(`Error: ${data.message}`);
         }
-      };
+    };
 
     return (
         <div id='contact' className='contact'>
@@ -65,7 +67,6 @@ const Contact = () => {
                     <label htmlFor='message'>Write your message here</label>
                     <textarea name='message' rows='8' placeholder='Enter your message' required></textarea>
                     <button type='submit' className='contact-submit'>Submit now</button>
-                    <p className='form-result'>{result}</p>
                 </form>
             </div>
         </div>
